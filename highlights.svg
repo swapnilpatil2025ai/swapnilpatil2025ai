@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 330" role="img" aria-labelledby="t d">
+  <title id="t">Four things I bring</title>
+  <desc id="d">One: money movement at scale — Payment Links processed about 980 million dollars in its first year at Intuit. Two: payments compliance — Visa Level 3 work saved about 30 million dollars a year. Three: AI in finance — AI GL coding switched on for 93% of customer companies at Ottimate. Four: I build AI products myself — Disha and AI PM Radar, built with Claude Code and tested with evals.</desc>
+  <style>
+    .bg{fill:#0d1117}
+    .card{fill:#161b22;stroke:#30363d;stroke-width:1}
+    .k{font:600 12px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e;letter-spacing:.08em}
+    .big{font:700 34px -apple-system,Segoe UI,Helvetica,Arial,sans-serif}
+    .lbl{font:600 15px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#e6edf3}
+    .sub{font:400 12.5px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e}
+    .head{font:700 18px -apple-system,Segoe UI,Helvetica,Arial,sans-serif;fill:#e6edf3}
+  </style>
+  <rect class="bg" width="840" height="330" rx="14"/>
+  <text class="head" x="28" y="42">Four things I bring to an AI or payments product</text>
+
+  <!-- 1 -->
+  <rect class="card" x="24" y="64" width="186" height="242" rx="10"/>
+  <text class="k" x="42" y="94">01 · MONEY AT SCALE</text>
+  <text class="big" x="42" y="144" fill="#3fb950">$980M</text>
+  <text class="lbl" x="42" y="172">Payment Links</text>
+  <text class="sub" x="42" y="196">Processed in year one.</text>
+  <text class="sub" x="42" y="214">Led the launch at</text>
+  <text class="sub" x="42" y="232">Intuit QuickBooks.</text>
+  <text class="sub" x="42" y="284">44% link → payment</text>
+
+  <!-- 2 -->
+  <rect class="card" x="226" y="64" width="186" height="242" rx="10"/>
+  <text class="k" x="244" y="94">02 · COMPLIANCE</text>
+  <text class="big" x="244" y="144" fill="#58a6ff">$30M</text>
+  <text class="lbl" x="244" y="172">a year saved</text>
+  <text class="sub" x="244" y="196">Visa Level 3 fix across</text>
+  <text class="sub" x="244" y="214">our payments API and</text>
+  <text class="sub" x="244" y="232">two external partners.</text>
+  <text class="sub" x="244" y="284">+ 285K-account migration</text>
+
+  <!-- 3 -->
+  <rect class="card" x="428" y="64" width="186" height="242" rx="10"/>
+  <text class="k" x="446" y="94">03 · AI IN FINANCE</text>
+  <text class="big" x="446" y="144" fill="#d29922">93%</text>
+  <text class="lbl" x="446" y="172">of customer companies</text>
+  <text class="sub" x="446" y="196">use the AI GL coding</text>
+  <text class="sub" x="446" y="214">I shaped: rules first,</text>
+  <text class="sub" x="446" y="232">confidence-gated AI.</text>
+  <text class="sub" x="446" y="284">Ottimate · AP automation</text>
+
+  <!-- 4 -->
+  <rect class="card" x="630" y="64" width="186" height="242" rx="10"/>
+  <text class="k" x="648" y="94">04 · I BUILD</text>
+  <text class="big" x="648" y="144" fill="#bc8cff">2</text>
+  <text class="lbl" x="648" y="172">AI products of my own</text>
+  <text class="sub" x="648" y="196">Disha and AI PM Radar,</text>
+  <text class="sub" x="648" y="214">built with Claude Code,</text>
+  <text class="sub" x="648" y="232">tested with evals.</text>
+  <text class="sub" x="648" y="284">The products below ↓</text>
+</svg>
