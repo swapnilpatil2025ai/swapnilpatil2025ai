@@ -7,7 +7,7 @@
 
 ---
 
-I work on AI-driven accounts-payable automation: document extraction, GL coding, vendor and item matching, an LLM copilot and agent prototypes. Before that I spent years in QuickBooks Payments at Intuit, where I led the launch of Payment Links and ran payments compliance. The thread through all of it: products where money moves and where automation has to be trustworthy.
+I work on AI-driven accounts-payable automation: document extraction, GL coding, vendor and item matching, an LLM copilot and agent prototypes. Before that I spent years in small-business payments at a global accounting platform, where I led a 0-to-1 payments launch and ran payments compliance. The thread through all of it: products where money moves and where automation has to be trustworthy.
 
 What I've learned is that the hard part of AI isn't the model. It's deciding what the machine is allowed to say and do, and proving it stays inside those lines. Both products below are built around that.
 
@@ -24,29 +24,29 @@ Both are mine, built end to end with AI coding assistants. Each repo carries the
 
 ## The numbers behind my roles
 
-QuickBooks Payment Links: ~$980M processed in its first year. Visa Level 3 compliance: ~$30M a year saved. AI GL coding: switched on for 93% of customer companies.
+A 0-to-1 payments launch, scaled from a 1K pilot to 100K+ small businesses. ~$30M a year saved through card-network compliance. AI GL coding switched on for 93% of customer companies.
 
 <details>
-<summary><b>📄 Intuit, Ottimate and Reach52, in full</b></summary>
+<summary><b>📄 In more detail</b></summary>
 
 <br>
 
-**Ottimate — AI accounts-payable automation (current)**
+**AI accounts-payable automation (current role)**
 
 - Shaped AI GL coding adopted by 93% of customer companies: deterministic rules first, AI as fallback, confidence-gated *suggest* versus *auto-apply*, and per-line provenance so we can tell AI coding from rule and human coding
-- Benchmarked an LLM offline for the cold-start case where a customer's history is thin: 81% line-level accuracy across 18.7K lines, at about $4 of inference for 5.5K invoices. Not in production; I defined the shadow → suggest → auto-apply path it would need
-- Chose explainable robust statistics over ML-first for invoice risk scoring (21 signals) because fraud labels were sparse and reviewers need to see *why* something is flagged. Rolled out to 1,400+ accounts
-- Drove quality and adoption of an LLM AP copilot while guard-validation failures fell ~40%; defined a task-based eval framework (tool-call correctness, permission compliance, grounding)
+- Benchmarked an LLM offline for the cold-start case where a customer's history is thin: 81% line-level accuracy at a fraction of a cent per invoice. Not in production; I defined the shadow → suggest → auto-apply path it would need
+- Chose explainable robust statistics over ML-first for invoice risk scoring because fraud labels were sparse and reviewers need to see *why* something is flagged. Rolled out to over a thousand customer accounts
+- Drove quality and adoption of an LLM copilot while guard-validation failures fell ~40%; defined a task-based eval framework (tool-call correctness, permission compliance, grounding)
 - Prototyped an approval agent: least-privilege tools, mandatory human confirmation, server-side authorization, full audit trail
 
-**Intuit — QuickBooks Payments & Identity**
+**Small-business payments, global accounting platform**
 
-- Led the launch of Payment Links, a way for small businesses to get paid without creating an invoice. Piloted with 1K customers, scaled to 100K+; ~$980M processed and ~$9.8M revenue in year one; 44% link-to-payment conversion
-- Delivered Visa Level 3 interchange compliance across our payments API, the FIS gateway and Chase Paymentech, saving ~$30M a year
-- Ran the migration of 285K Chase-linked accounts off screen-scraped bank data, protecting ~$250K a day in revenue at risk
-- Delivered Identity 2.0, moving from role- to attribute-based access control across Core, Payroll and Payments
+- Led the 0-to-1 launch of an invoice-free way for small businesses to get paid: piloted with 1K customers, then scaled to 100K+
+- Delivered card-network (Level 3) compliance across our payments stack and two external processing partners, saving ~$30M a year
+- Ran a partner-driven migration of 285K bank-linked accounts to compliant data access, protecting revenue at risk
+- Moved identity from role- to attribute-based access control across three product lines
 
-**Reach52 — offline-first health marketplace**
+**Offline-first health marketplace, emerging markets**
 
 - Scaled from 320K to 1M+ users across India, Kenya and Indonesia; GMV +432%
 - Built a data-validation framework that took good profiles from 80% to 96%
